@@ -15,7 +15,7 @@ class ArticleController extends Controller
     // }
     public function index()
     {
-                return 'hi youusef how are you today';
+                return 'je fait tou ca avec lextention';
     }
     public function show (string $slug,string $id)
     {
