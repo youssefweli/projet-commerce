@@ -15,11 +15,11 @@ class ArticleController extends Controller
     // }
     public function index()
     {
-                return 'liste des articles';
+                return 'hi youusef how are you today';
     }
     public function show (string $slug,string $id)
     {
-          return "slug: $slug<br>ID: $id" ;
+          return "slug: $slug<br>ID   : $id" ;
     }
 }
 
